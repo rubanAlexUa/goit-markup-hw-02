@@ -47,23 +47,28 @@ nav li,
   color: #2e2f42;
 }
 
-.studio_hyper:hover {
+.studio_hyper:hover,
+.studio_hyper + a:hover {
   color: #404bbf;
 }
 
-.studio_hyper:focus {
+.studio_hyper:focus,
+.studio_hyper + a:focus {
   color: #404bbf;
 }
 
-.email {
+.email,
+.email + a {
   color: #434455;
 }
 
-.email:hover {
+.email:hover,
+.email + a:hover {
   color: #404bbf;
 }
 
-.email:focus {
+.email:focus,
+.email + a:focus {
   color: #404bbf;
 }
 
@@ -92,7 +97,7 @@ nav li,
   background-color: #404bbf;
 }
 
-h1 {
+.heading_first {
   font-weight: 700;
   font-size: 56px;
   line-height: 107%;
@@ -121,7 +126,7 @@ li p,
   background-color: #f4f4fd;
 }
 
-.team-heading {
+.heading-second {
   font-size: 36px;
   line-height: 1.11;
   text-align: center;
@@ -137,6 +142,9 @@ footer {
   height: 312px;
   color: #f4f4fd;
   background-color: #2e2f42;
+}
+.footer-studio {
+  color: #f4f4fd;
 }
 
 footer > p {
