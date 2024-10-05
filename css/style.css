@@ -39,7 +39,8 @@ span {
 }
 
 nav li,
-.email {
+.email,
+.footer-studio {
   font-weight: 500;
   font-size: 16px;
   line-height: 150%;
@@ -47,28 +48,23 @@ nav li,
   color: #2e2f42;
 }
 
-.studio_hyper:hover,
-.studio_hyper + a:hover {
+.studio_hyper:hover {
   color: #404bbf;
 }
 
-.studio_hyper:focus,
-.studio_hyper + a:focus {
+.studio_hyper:focus {
   color: #404bbf;
 }
 
-.email,
-.email + a {
+.email-tel {
   color: #434455;
 }
 
-.email:hover,
-.email + a:hover {
+.email-tel:hover {
   color: #404bbf;
 }
 
-.email:focus,
-.email + a:focus {
+.email-tel:focus {
   color: #404bbf;
 }
 
@@ -78,11 +74,6 @@ nav li,
 
 .button-service {
   font-size: 16px;
-  border-radius: 4px;
-  padding: 16px 32px;
-  width: 169px;
-  height: 56px;
-  box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
   background: #4d5ae5;
   font-family: "Roboto", sans-serif;
   font-weight: 500;
@@ -139,7 +130,6 @@ li p,
 }
 
 footer {
-  height: 312px;
   color: #f4f4fd;
   background-color: #2e2f42;
 }
