@@ -13,8 +13,12 @@ h3 {
   color: #2e2f42;
 }
 
-span {
+.logo {
   color: #4d5ae5;
+}
+
+span {
+  color: #2e2f42;
 }
 
 .logo {
@@ -26,11 +30,12 @@ span {
   text-transform: uppercase;
 }
 
-address {
+.address {
   font-weight: 400;
   font-size: 16px;
   line-height: 150%;
   letter-spacing: 0.02em;
+  font-style: normal;
 }
 
 nav li {
@@ -40,11 +45,36 @@ nav li {
   letter-spacing: 0.02em;
 }
 
+.studio_hyper {
+  color: #2e2f42;
+}
+
+.studio_hyper:hover {
+  color: #404bbf;
+}
+
+.studio_hyper:focus {
+  color: #404bbf;
+}
+
+.email {
+  color: #434455;
+}
+
+.email:hover {
+  color: #404bbf;
+}
+
+.email:hover {
+  color: #404bbf;
+}
+
 .f-sel {
   background-color: #2e2f42;
 }
 
 .button-service {
+  font-size: 16px;
   border-radius: 4px;
   padding: 16px 32px;
   width: 169px;
@@ -56,6 +86,12 @@ nav li {
   line-height: 150%;
   letter-spacing: 0.04em;
   color: #fff;
+  cursor: pointer;
+}
+
+.button-service:hover,
+.button-service:focus {
+  background-color: #404bbf;
 }
 
 h1 {
@@ -85,8 +121,7 @@ li p {
   text-align: center;
 }
 
-footer,
-a {
+footer {
   height: 312px;
   color: #f4f4fd;
   background-color: #2e2f42;
