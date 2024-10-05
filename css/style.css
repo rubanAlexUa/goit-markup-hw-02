@@ -115,7 +115,7 @@ li p,
 }
 
 .member-sel {
-  background-color: #f4f4fd;
+  background-color: #F4F4FD;
 }
 
 .heading-second {
@@ -130,6 +130,9 @@ li p,
   text-align: center;
 }
 
+.box-member{
+  background-color: #FFFFFF;
+}
 footer {
   color: #f4f4fd;
   background-color: #2e2f42;
